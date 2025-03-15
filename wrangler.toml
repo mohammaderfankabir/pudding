@@ -1,0 +1,14 @@
+name = "pudding"  # Name of your Worker
+
+
+# Cloudflare account settings
+account_id = "8e05a6fbfc87a9cd9fb0cacaabc05bd4"
+workers_dev = true  # This allows you to deploy the Worker to a test environment on Cloudflare's free subdomain
+
+
+# Specify the entry point file
+main = "index.js"
+
+
+# Required compatibility date
+compatibility_date = "2025-03-15"
